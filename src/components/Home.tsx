@@ -5,8 +5,7 @@ const Home = () => {
 
     return (
         <div>
-qq      <About /> 
-
+            <About />
         </div>
     )
 }

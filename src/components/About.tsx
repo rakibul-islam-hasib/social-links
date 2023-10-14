@@ -1,10 +1,17 @@
-import myImage from '../assets/img/me.png';
-
-
-const About = () => {
+import React from 'react';
+import myImg from '../assets/img/me.png';
+const About: React.FC = () => {
     return (
-        <div>
-            <img className='h-[250px] w-[250px] rounded-full' src={myImage} alt="" />
+        <div className='grid grid-cols-2'>
+            <div className="flex gap-2 ">
+                <img src={myImg} className='h-[250px] w-[250px]' alt="My Images " />
+                <div className="">
+                    <h1 className='text-2xl font-serif'>Md Rakibul Islam</h1>
+                </div>
+            </div>
+            <div className="">
+
+            </div>
         </div>
     );
 };
