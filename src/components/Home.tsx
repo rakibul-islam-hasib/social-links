@@ -1,4 +1,5 @@
 import About from "./About"
+import Accounts from "./Accounts"
 
 const Home = () => {
 
@@ -6,6 +7,7 @@ const Home = () => {
     return (
         <div>
             <About />
+            <Accounts />
         </div>
     )
 }
