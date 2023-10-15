@@ -2,6 +2,7 @@ import facebook from '../assets/icons/facebook.svg';
 import instagram from '../assets/icons/instagram.svg';
 import twitter from '../assets/icons/twitter.svg';
 import linkedin from '../assets/icons/linkedin.svg';
+import github from '../assets/icons/github.svg';
 export const socialLinks = [
     {
         name: 'Facebook',
@@ -25,6 +26,12 @@ export const socialLinks = [
         name: 'LinkedIn',
         url: 'https://www.linkedin.com/in/hasib-h7/',
         icon: linkedin,
+        category: 'social'
+    },
+    {
+        name: 'Github',
+        url: 'https://github.com/rakibul-islam-hasib',
+        icon: github,
         category: 'social'
     }
 ];
