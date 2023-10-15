@@ -20,4 +20,22 @@ export const socialLinks = [
         icon: twitter,
         category: 'social'
     }
+]; 
+
+
+// Path: src/components/Footer/Footer.tsx
+
+
+export const phone = [
+    {
+        name: 'Phone',
+        url: 'tel:+8801712345678',
+        icon: 'phone',
+        category: 'phone'
+    },
+    {
+        name: 'Email',
+        url: 'mailto:rakibultech99@gmail.com',
+    },
 ]
+
