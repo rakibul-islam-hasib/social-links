@@ -1,8 +1,10 @@
 import React from 'react';
 import myImg from '../assets/img/me.png';
 import { AiOutlineLink } from 'react-icons/ai';
-import nodeJS from '../assets/icons/nodejs.svg';
-import reactJS from '../assets/icons/react.svg';
+import avatar from '../assets/img/avater.svg';
+
+
+
 const About: React.FC = () => {
     return (
         <div className='grid grid-cols-2'>
@@ -23,13 +25,8 @@ const About: React.FC = () => {
                 </div>
             </div>
             <div className="">
-                <div className="grid grid-cols-10">
-                    <div className="">
-                        <img src={nodeJS} className='w-[150px]' alt="Node js " />
-                    </div>
-                    <div className="">
-                        <img src={reactJS} className='w-[50px] h-[50px]' alt="Node js " />
-                    </div>
+                <div className="">
+                    <img src={avatar} className='w-[200px]'  alt="" />
                 </div>
             </div>
         </div>
