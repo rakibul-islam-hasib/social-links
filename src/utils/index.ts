@@ -1,6 +1,7 @@
 import facebook from '../assets/icons/facebook.svg';
 import instagram from '../assets/icons/instagram.svg';
 import twitter from '../assets/icons/twitter.svg';
+import linkedin from '../assets/icons/linkedin.svg';
 export const socialLinks = [
     {
         name: 'Facebook',
@@ -19,8 +20,14 @@ export const socialLinks = [
         url: 'https://twitter.com/netkinghasib',
         icon: twitter,
         category: 'social'
+    },
+    {
+        name: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/hasib-h7/',
+        icon: linkedin,
+        category: 'social'
     }
-]; 
+];
 
 
 // Path: src/components/Footer/Footer.tsx
