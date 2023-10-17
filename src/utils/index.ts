@@ -53,3 +53,4 @@ export const phone = [
     },
 ]
 
+// console.log('data')

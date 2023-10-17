@@ -1,9 +1,10 @@
-import Home from "./components/Home";
+import AnimatedBg from "./components/AnimatedBg";
 
 const App = () => {
   return (
-    <div className="max-w-screen-xl mx-auto mt-3 ">
-      <Home />
+    <div className="  relative w-full ">
+      {/* <Home /> */}
+      <AnimatedBg />
     </div>
   );
 };
